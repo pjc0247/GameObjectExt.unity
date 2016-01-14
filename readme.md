@@ -8,7 +8,7 @@ var obj = GameObject.Find("object");
 var obj = "object".Find();
 ```
 
-__Find<T>__
+__Find(T)__
 ```c#
 var component = GameObject.Find("object").GetComponent<Foo>();
 
