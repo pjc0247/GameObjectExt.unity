@@ -16,14 +16,14 @@ var component = "object".Find<Foo>();
 ```
 
 __Transform__
-```
+```c#
 var t = GameObject.Find("object").transform;
 
 var t = "object".Transform();
 ```
 
 __SetParent__
-```
+```c#
 var child = GameObject.Find("child").transform;
 var parent = GameObject.Find("parent").transform;
 child.SetParent(parent);
