@@ -23,7 +23,7 @@ using UnityEngine.UI;
         }
         public static T Find<T>(
             this string name)
-            where T : UnityEngine.MonoBehaviour
+            where T : UnityEngine.Component
         {
             return GameObject.Find(name).GetComponent<T>();
         }
